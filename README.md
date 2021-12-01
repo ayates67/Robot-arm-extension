@@ -1,1 +1,4 @@
-# Robot-arm-extension
+# Robot arm extension
+
+
+## Project planning
