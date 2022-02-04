@@ -21,3 +21,8 @@ As of right now, we have finished the arm attachment and the phone holder. Next 
 
 <img src="Captured.PNG">
 
+## Finish assembly
+
+Today I finished all of the part and assembly. This picture shows a phone holder attached to an axel and 2 servos. The servos will rotate forward and backward to the person's liking. The objective of the project is to make a arm attachment that will hold a phone while giving you the freedom to move both hands. This project will allow you to eat, watch tik tok, and use the other hand for fidgiting, playing cards, or just resting.
+
+<img src="Capturebc.PNG">
