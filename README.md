@@ -109,4 +109,4 @@ Lessons that we learned, even if the odds are against you, never give up. Anothe
 
 <img src="WIN_20220606_10_47_06_Pro.jpg">
 
-<img src="WIN_20220606_10_54_32_Pro.mp4">
+<img src="ezgif.com-gif-maker.gif">
