@@ -57,4 +57,54 @@ while True:
 
 The code still isn't fully working. It should be done soon but this is where we are at now.
 
+## Finished Code
+
+
+```
+import board
+import time
+import pwmio
+from digitalio import DigitalInOut, Direction, Pull
+from adafruit_motor import servo
+
+
+btn = DigitalInOut(board.D9)
+btn.direction = Direction.INPUT
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+pwt = pwmio.PWMOut(board.A3, duty_cycle=2 ** 15, frequency=50)
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+my_servo2 = servo.Servo(pwt)
+angle = 0
+lowEnd = 60
+topEnd = 90
+
+while True:
+    if btn.value:
+        print("up")
+        if angle < topEnd -5:
+            for angle in range(lowEnd, topEnd, 5):   # 0 - 180 degrees, 5 degrees at a time.
+                my_servo.angle = angle
+                my_servo2.angle = (180-angle)
+                time.sleep(0.05)
+                print(angle)
+    else:    
+        print("DOWN")
+        if angle > lowEnd + 5:
+            for angle in range(topEnd, lowEnd, -5):  # 180 - 0 degrees, 5 degrees at a time.
+                my_servo.angle = angle
+                my_servo2.angle = (180-angle)
+                time.sleep(0.05)
+                print(angle)
+    print("done")
+    time.sleep(1)
+
+    # if, when you're done, the servos are twitchy, we may need to add an extra "if" abovve the servo code
+    # the new if's job would be to only run servo code IF the angle value has changed (or changed more than x%).
+```
+We finally finish our project and got the code to work. We have the phone moving a certain angle everytime you flip the switch. This project was great challenge due to my previous inexperience in codeing since engineering 2 was during covid. We thought we weren't going to finish but we never gave up and beat every hard challenge that we encounterned. Now that we finsihed our project we feel relieved.
+
+
 <img src="WIN_20220606_10_47_06_Pro.jpg">
