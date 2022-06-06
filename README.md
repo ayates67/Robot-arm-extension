@@ -108,3 +108,5 @@ We finally finish our project and got the code to work. We have the phone moving
 
 
 <img src="WIN_20220606_10_47_06_Pro.jpg">
+
+<img src="WIN_20220606_10_54_32_Pro.mp4">
