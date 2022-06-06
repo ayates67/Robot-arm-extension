@@ -105,7 +105,7 @@ while True:
     # the new if's job would be to only run servo code IF the angle value has changed (or changed more than x%).
 ```
 We finally finish our project and got the code to work. We have the phone moving a certain angle everytime you flip the switch. This project was great challenge due to my previous inexperience in codeing since engineering 2 was during covid. We thought we weren't going to finish but we never gave up and beat every hard challenge that we encounterned. Now that we finsihed our project we feel relieved.
-
+Lessons that we learned, even if the odds are against you, never give up. Another lesson that we learned was somethings take a extra little shove to fit. And always remember hard work and dadication pays off.
 
 <img src="WIN_20220606_10_47_06_Pro.jpg">
 
